@@ -1,0 +1,5 @@
+{
+  "db_url": "jdbc:oracle:thin:@//dbhost:1521/ORCL",
+  "db_user": "DBUSER",
+  "db_pass": "DBPASSWORD"
+}
