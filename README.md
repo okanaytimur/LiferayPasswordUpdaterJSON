@@ -1,0 +1,2 @@
+# LiferayPasswordUpdaterJSON
+Liferay Pasword Updater.
