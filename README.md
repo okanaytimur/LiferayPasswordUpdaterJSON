@@ -28,13 +28,21 @@ ________________________________________
 Derleme ve Çalıştırma (Windows CMD)
 1. Derleme
 Java 8 ile uyumlu derlemek için:
+
+
 javac -source 1.8 -target 1.8 -cp .;ojdbc8.jar;orai18n.jar LiferayPasswordUpdaterJSON.java
+
+
 •	Bu, .class dosyasını oluşturur.
 •	Eğer javac komutu tanınmıyorsa JDK kurulu değil veya PATH’e ekli değil.
 ________________________________________
 2. Çalıştırma
 CMD’de:
+
+
 java -cp .;ojdbc8.jar;orai18n.jar LiferayPasswordUpdaterJSON
+
+
 •	Program terminalden screenName sorar.
 •	Ardından yeni şifre girmeniz istenir (input gizli).
 •	Kullanıcı bulunursa:
