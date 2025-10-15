@@ -1,0 +1,1 @@
+javac -source 1.8 -target 1.8 -cp .;ojdbc8.jar;orai18n.jar LiferayPasswordUpdaterJSON.java

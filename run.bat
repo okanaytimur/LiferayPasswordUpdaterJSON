@@ -1,0 +1,1 @@
+java -cp .;ojdbc8.jar;orai18n.jar LiferayPasswordUpdaterJSON
