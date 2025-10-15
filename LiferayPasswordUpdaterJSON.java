@@ -14,7 +14,7 @@ public class LiferayPasswordUpdaterJSON {
             configPath = args[0];
         }
 
-        // 1) Read JSON config (simple, dependency-free parser for 3 keys)
+        // 1) Read JSON config (simple, dependency-free parser for 3 keysppppp)
         String dbUrl = null, dbUser = null, dbPass = null;
         try {
             String json = readFileToString(configPath);
