@@ -95,7 +95,7 @@ public class LiferayPasswordUpdaterJSON {
             }
             System.out.println("Backup written to: " + backupFile);
 
-            String updateSql = "UPDATE user_ SET password_ = ?, passwordencrypted = 0 WHERE screenName = ?";
+            String updateSql = "UPDATE user_ SET password_ = ?, passwordencrypted = 0, lockout = 0 WHERE screenName = ?";
             updateStmt = conn.prepareStatement(updateSql);
             updateStmt.setString(1, newPassword);
             updateStmt.setString(2, screenName);
